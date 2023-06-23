@@ -21,6 +21,7 @@ ports:
 ports_description:
   8080/tcp: scanservjs Web interface
 full_access: true
+privileged: true
 host_network: true
 host_dbus: true
 usb: true
