@@ -11,6 +11,8 @@ set -f
 service cups start
 #setup drivers
 hp-setup -i -a -b usb
+#list devices
+sane-find-scanner -q
 
 # split at newlines only (airscan devices can have spaces in)
 IFS='
