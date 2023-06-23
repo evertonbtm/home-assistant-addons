@@ -8,7 +8,7 @@ set -xve
 set -f
 
 # start cups
-service cups start
+#service cups start
 #setup drivers
 hp-setup -i -a -b usb
 #list devices
