@@ -1,5 +1,5 @@
 name: scanservjs
-version: v2.26.1-7
+version: v2.26.1-8
 slug: scanservjs
 description: (fork) scanservjs is a web UI frontend for your scanner
 arch:
@@ -21,6 +21,7 @@ ports:
 ports_description:
   8080/tcp: scanservjs Web interface
 full_access: true
+privileged: true
 host_network: true
 host_dbus: true
 usb: true
